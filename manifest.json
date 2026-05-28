@@ -3,7 +3,7 @@
   "short_name": "kids-learnin",
   "start_url": "/kids-learning-style-quiz/",
   "display": "standalone",
-  "background_color": "#6366f1",
+  "background_color": "#ffffff",
   "theme_color": "#7c3aed",
   "scope": "/kids-learning-style-quiz/"
 }
