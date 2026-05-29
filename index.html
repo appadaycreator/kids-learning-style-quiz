@@ -112,6 +112,10 @@
             <p id="r-desc" style="color:#444;font-size:14px;line-height:1.7;"></p>
             <div id="final-score" style="display:none;"></div>
             <button class="btn" style="margin-top:16px;" onclick="startGame()">もう一度診断する</button>
+            <div style="display:flex;gap:8px;margin-top:10px;">
+              <button class="btn" style="flex:1;background:#f1f5f9;color:#334155;" onclick="window.print()">🖨 印刷する</button>
+              <button class="btn" style="flex:1;background:#f1f5f9;color:#334155;" onclick="(function(){var t=document.getElementById('r-title').textContent;var d=document.getElementById('r-desc').textContent;var txt='【学習スタイル診断 結果】\n'+t+'\n'+d+'\nhttps://appadaycreator.com/kids-learning-style-quiz/';try{navigator.clipboard.writeText(txt).then(function(){alert('コピーしました！');});}catch(e){};})()" >📋 コピー</button>
+            </div>
           </div>
         </div>
 
